@@ -4,12 +4,14 @@ This project demonstrates how to integrate LangChain with OpenAI's GPT model to 
 
 ## Project Structure
 
+```sh
 .
 ├── main.py
 ├── Pipfile
 ├── Pipfile.lock
 ├── .env
 └── .gitignore
+```
 
 ### Files Description
 
@@ -30,14 +32,15 @@ This project demonstrates how to integrate LangChain with OpenAI's GPT model to 
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/langchain-openai-integration.git
-   cd langchain-openai-integration
+   git clone git@github.com:catchnaren/pycode.git
+   cd pycode
 
    ```
 
 2. **Install Dependencies**
 
    ```bash
+   pip install pipenv
    pipenv install
    ```
 
