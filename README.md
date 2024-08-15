@@ -70,12 +70,11 @@ python main.py --task "return a list of numbers" --language "python"
 
 ```bash
 > > > > > > > > GENERATED CODE:
-> > > > > > > > def generate_numbers():
-
-    return [1, 2, 3, 4, 5]
+def generate_numbers():
+  return [1, 2, 3, 4, 5]
 
 > > > > > > > > GENERATED TEST:
-> > > > > > > > import unittest
+import unittest
 
 class TestGenerateNumbers(unittest.TestCase):
   def test_generate_numbers(self):
